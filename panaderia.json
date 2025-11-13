@@ -1,0 +1,111 @@
+{
+  "ingredientes": [
+    {
+      "nombre": "Harina",
+      "unidadMedida": "kg",
+      "stock": 50.5,
+      "nivelMinimo": 10.0
+    },
+    {
+      "nombre": "Agua",
+      "unidadMedida": "litros",
+      "stock": 30.0,
+      "nivelMinimo": 5.0
+    },
+    {
+      "nombre": "Sal",
+      "unidadMedida": "kg",
+      "stock": 5.0,
+      "nivelMinimo": 1.0
+    },
+    {
+      "nombre": "Levadura",
+      "unidadMedida": "kg",
+      "stock": 2.5,
+      "nivelMinimo": 0.5
+    },
+    {
+      "nombre": "Azucar",
+      "unidadMedida": "kg",
+      "stock": 8.0,
+      "nivelMinimo": 2.0
+    },
+    {
+      "nombre": "Mantequilla",
+      "unidadMedida": "kg",
+      "stock": 4.0,
+      "nivelMinimo": 1.0
+    },
+    {
+      "nombre": "Huevos",
+      "unidadMedida": "unidades",
+      "stock": 120.0,
+      "nivelMinimo": 24.0
+    },
+    {
+      "nombre": "Leche",
+      "unidadMedida": "litros",
+      "stock": 15.0,
+      "nivelMinimo": 3.0
+    }
+  ],
+  "recetas": [
+    {
+      "nombre": "Pan Francés",
+      "numeroIngredientes": 4,
+      "ingredientes": ["Harina", "Agua", "Sal", "Levadura"],
+      "cantidades": [0.5, 0.3, 0.01, 0.02]
+    },
+    {
+      "nombre": "Pan Integral",
+      "numeroIngredientes": 4,
+      "ingredientes": ["Harina", "Agua", "Sal", "Levadura"],
+      "cantidades": [0.6, 0.35, 0.012, 0.025]
+    },
+    {
+      "nombre": "Pan de Molde",
+      "numeroIngredientes": 6,
+      "ingredientes": ["Harina", "Agua", "Sal", "Levadura", "Azucar", "Mantequilla"],
+      "cantidades": [0.7, 0.4, 0.015, 0.03, 0.05, 0.08]
+    },
+    {
+      "nombre": "Croissant",
+      "numeroIngredientes": 6,
+      "ingredientes": ["Harina", "Agua", "Sal", "Levadura", "Mantequilla", "Azucar"],
+      "cantidades": [0.5, 0.25, 0.01, 0.02, 0.25, 0.03]
+    },
+    {
+      "nombre": "Brioche",
+      "numeroIngredientes": 7,
+      "ingredientes": ["Harina", "Leche", "Huevos", "Mantequilla", "Azucar", "Levadura", "Sal"],
+      "cantidades": [0.6, 0.2, 3.0, 0.15, 0.08, 0.025, 0.01]
+    }
+  ],
+  "panes": [
+    {
+      "nombre": "Pan Francés",
+      "stock": 45,
+      "receta": "Pan Francés"
+    },
+    {
+      "nombre": "Pan Integral",
+      "stock": 30,
+      "receta": "Pan Integral"
+    },
+    {
+      "nombre": "Pan de Molde",
+      "stock": 25,
+      "receta": "Pan de Molde"
+    },
+    {
+      "nombre": "Croissant",
+      "stock": 60,
+      "receta": "Croissant"
+    },
+    {
+      "nombre": "Brioche",
+      "stock": 20,
+      "receta": "Brioche"
+    }
+  ]
+}
