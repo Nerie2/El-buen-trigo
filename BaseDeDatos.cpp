@@ -92,14 +92,14 @@ json BaseDeDatos::obtenerJSONParseado() const {
 }
 
 std::string BaseDeDatos::obtenerJSONString() const {
-    return datosJSON.dump(4);  // Formateado con 4 espacios
+    return datosJSON.dump(4);  
 }
 
 bool BaseDeDatos::tieneJSON() const {
     return jsonCargado;
 }
 
-// Métodos específicos para la panadería
+
 json BaseDeDatos::obtenerIngredientes() const {
     if (jsonCargado && datosJSON.contains("ingredientes")) {
         return datosJSON["ingredientes"];
@@ -121,7 +121,7 @@ json BaseDeDatos::obtenerPanes() const {
     return json::array();
 }
 
-// Buscar elementos específicos
+
 json BaseDeDatos::buscarIngrediente(const std::string& nombre) const {
     if (!jsonCargado) return json();
     
@@ -157,3 +157,4 @@ json BaseDeDatos::buscarPan(const std::string& nombre) const {
     }
     return json();
 }
+
